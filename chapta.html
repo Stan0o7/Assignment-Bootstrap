@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="/Assignment-Bootstrap/Assignment-Bootstrap/css/bootstrap.min.css">
+
+    <style>
+        .alert {
+          position: relative;
+          padding-right: 30px; /* Adjust the padding to make space for the close button */
+        }
+      
+        .close {
+          position: absolute;
+          top: 0;
+          right: 0;
+          padding: 10px; /* Adjust the padding to control the size of the close button */
+          border: 0;
+          background-color: transparent;
+        }
+      </style>
+</head>
+<body>
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <i class="fas fa-check-circle"></i>  Success! Your message has been sent successfully.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true" style="font-size: 20px;">&times;</span>
+        </button>
+      </div>
+      
+      <div class="alert alert-danger alert-dismissible fade show" role="alert">
+        <i class="fas fa-exclamation-circle"></i> Error! A problem has been occurred while submitting your data.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true" style="font-size: 20px;">&times;</span>
+        </button>
+      </div>
+      
+      <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <i class="fas fa-exclamation-triangle"></i> Warning! There was a problem with your network connection.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true" style="font-size: 20px;">&times;</span>
+        </button>
+      </div>
+      
+      <div class="alert alert-info alert-dismissible fade show" role="alert">
+        <i class="fas fa-info-circle"></i> Info! Please read the comments carefully.
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true" style="font-size: 20px;">&times;</span>
+        </button>
+      </div>
+      
+      <!-- Bootstrap JS (jQuery and Popper.js are required) -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <script src="/Assignment-Bootstrap/Assignment-Bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
